@@ -1,4 +1,6 @@
 # Seminarska naloga za UVP1
+![This is an image](https://prnt.sc/GfAgbXBFDlDA)
+
 
 Program za Turistično agencijo, narejen v prog. jeziku Java ☕
 Funkcinalnosti programa:
