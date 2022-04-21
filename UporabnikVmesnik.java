@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class UporabnikVmesnik {
 		
 	private static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	private static final String pot ="neki.txt";
+	private static final String pot ="pocitnice.txt";
 	
 	public static void basic(ArrayList<Uporabnik> uporabniki) throws IOException, ClassNotFoundException {
 		char opcija = ' ';
@@ -47,7 +47,9 @@ public class UporabnikVmesnik {
 					br.readLine();//BELI ZNAK
 					break;
 				case 'y':
-					UporabniskiVmesnik.main(null);
+					TuristicnaAgencija.shrani();
+					IORazred_mainVmesnik.shrani(pot, uporabniki);
+					UporabniskiVmesnik.main(new String[]{"true"});
 					return;
 				default:
 					System.out.println("NAPACNA OPCIJA.");
@@ -144,7 +146,7 @@ public class UporabnikVmesnik {
 				case 'y':
 					TuristicnaAgencija.shrani();
 					IORazred_mainVmesnik.shrani(pot, uporabniki);
-					UporabniskiVmesnik.main(null);
+					UporabniskiVmesnik.main(new String[]{"true"});
 					return;
 				default:
 					System.out.println("NAPACNA OPCIJA.");

@@ -13,7 +13,8 @@ public class UporabniskiVmesnik {
 		IORazred_mainVmesnik.preberi(pot, uporabniki);
 		generateAdmin_and_normal(false);
 		generatePocitnice(false);
-		
+		if( args !=null && args.length > 0 && Boolean.parseBoolean(args[0])==true ) br.readLine(); //neka brezvezna resitev...
+				
 		char opcija = ' ';
 		
 		while(true) 
@@ -23,7 +24,7 @@ public class UporabniskiVmesnik {
 			System.out.println("a -> Registriraj novega uporabnika.");
 			System.out.println("b -> Izpis uporabnikov.");
 			System.out.println("c -> Prijava v vmesnik.");
-			System.out.println("y -> Zakljuci/Terminiraj program.\n");
+			System.out.println("y -> Zakljuci/Terminiraj program.");
 			System.out.print("Vnesite opcijo programa kot znak (npr. y): ");
 			opcija = (char) br.read();
 			switch (opcija)
@@ -45,7 +46,7 @@ public class UporabniskiVmesnik {
 					IORazred_mainVmesnik.shrani(pot, uporabniki);
 					IORazred_mainVmesnik.terminirajProgram();
 				default:
-					System.out.println("NAPACNA OPCIJA.");
+					System.out.println( args !=null &&Boolean.parseBoolean(args[0])==true ?  "" : "NAPACNA OPCIJA." + "->" + opcija + "<-");
 			}
 		}
 	}
