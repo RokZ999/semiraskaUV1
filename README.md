@@ -9,8 +9,8 @@ Funkcinalnosti programa:
 - Če se prijavi admin ima na voljo vse funckionalnosti uporabnika + vse admin funkcionalnosti
 
 ## Namestiev
-1. Odpreš ukazno vrstico in napišeš gh repo clone RokZ999/semiraskaUVP1 ali ročno preneseš v skupno poljubno imeanovano mapo naslednje datoteke: UporabniskiVmesnik.jar in uporabniki.txt pocitnice.txt
-2. Zazenes RUN program.bat, ki v ozadju naredi naslednji korak, ki ga lahko izvedeš tudi sam 
+1. Odpreš ukazno vrstico in napišeš gh repo clone RokZ999/semiraskaUVP1 ali ročno preneseš vse v poljubno skupno mapo.
+2. Zazenes RUN program.bat, ki v ozadju naredi naslednji korak, ki ga lahko izvedete tudi sami
 -> Odpreš mapo v ukazni vrstici in napišeš ukaz: java -jar TuristicnaAgencijaCLI.jar
 
 ## Prevajnje kode/posodblanje in kreiranje JAR datoteke
