@@ -11,8 +11,8 @@ public class UporabniskiVmesnik {
 	
 	public static void main(String[] args) throws IOException, ClassNotFoundException {
 		IORazred_mainVmesnik.preberi(pot, uporabniki);
-		generateAdmin_and_normal(false);
-		generatePocitnice(false);
+		generateAdmin_and_normal(true);
+		generatePocitnice(true);
 		if( args !=null && args.length > 0 && Boolean.parseBoolean(args[0])==true ) br.readLine(); //neka brezvezna resitev...
 				
 		char opcija = ' ';

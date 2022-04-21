@@ -491,6 +491,7 @@ public class TuristicnaAgencija {
 	
 	public static void izpisVsehPocitnic() throws ClassNotFoundException, IOException {
 		System.out.println(pocitnice);
+		System.out.println("Vseh pocitnic je: " + pocitnice.size());
 	}
 	public static void odjavaZapriBralnike() throws IOException{
 		System.out.println("Program je bil terminiran!");
@@ -498,6 +499,7 @@ public class TuristicnaAgencija {
 			pr.close();
 			br.close();
 		}
+		
 	}
 
 }
