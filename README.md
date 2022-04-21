@@ -7,3 +7,5 @@ Funkcinalnosti programa:
 - Če se prijavi admin ima na voljo vse funckionalnosti uporabnika + vse admin funkcionalnosti
 
 ## Namestiev
+1. gh repo clone RokZ999/semiraskaUVP1 ali ročno preneseš v skupno poljubno imeanovano mapo naslednje datoteke: UporabniskiVmesnik.jar in uporabniki.txt pocitnice.txt
+2. Odpres mapo v ukazni vrstici in napises java  UporabniskiVmesnik
