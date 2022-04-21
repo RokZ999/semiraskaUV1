@@ -12,6 +12,9 @@ Funkcinalnosti programa:
 
 ## Prevajnje kode in kreiranje JAR datoteke
 
+
+```
 javac *.java
 jar cvfm TuristicnaAgencijaCLI.jar manifest.txt *.class
 java -jar TuristicnaAgencijaCLI.jar
+```
