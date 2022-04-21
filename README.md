@@ -1,5 +1,5 @@
 # Seminarska naloga za UVP1
-![image](https://user-images.githubusercontent.com/71169333/164452010-39a8e7d0-73fb-4610-8176-b28c93673331.png)
+![image](https://user-images.githubusercontent.com/71169333/164452151-1be739a8-f590-4c0c-8263-4d1fc9b4080d.png)
 
 
 Program za Turistično agencijo, narejen v prog. jeziku Java ☕
