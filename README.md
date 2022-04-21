@@ -8,4 +8,10 @@ Funkcinalnosti programa:
 
 ## Namestiev
 1. Odpreš ukazno vrstico in napišeš gh repo clone RokZ999/semiraskaUVP1 ali ročno preneseš v skupno poljubno imeanovano mapo naslednje datoteke: UporabniskiVmesnik.jar in uporabniki.txt pocitnice.txt
-2. Odpres mapo v ukazni vrstici in napišeš ukaz: java -jar TuristicnaAgencijaCLI.jar
+2. OdpreŠ mapo v ukazni vrstici in napišeš ukaz: java -jar TuristicnaAgencijaCLI.jar
+
+## Prevajnje kode in kreiranje JAR datoteke
+
+javac *.java
+jar cvfm TuristicnaAgencijaCLI.jar manifest.txt *.class
+java -jar TuristicnaAgencijaCLI.jar
