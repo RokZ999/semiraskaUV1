@@ -4,7 +4,7 @@ public class Uporabnik implements Serializable {
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = -8423740716820019620L;
+	private static final long serialVersionUID = 1L;
 	private String ime,priimek,uporabnisko_ime,geslo;
 	private boolean ali_je_administrator;
 	
