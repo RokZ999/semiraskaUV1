@@ -7,12 +7,14 @@ import java.util.Random;
 public class UporabniskiVmesnik {
 	static ArrayList<Uporabnik> uporabniki =  new ArrayList<Uporabnik>();
 	private static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	private final static String pot = "uporabniki.txt";
+	public final static String pot = "uporabniki.txt";
+	public final static String pot2 = "pocitnice.txt";
+	
 	
 	public static void main(String[] args) throws IOException, ClassNotFoundException {
 		IORazred_mainVmesnik.preberi(pot, uporabniki);
-		generateAdmin_and_normal(true);
-		generatePocitnice(true);
+		//generateAdmin_and_normal(true);
+		//generatePocitnice(true);
 		if( args !=null && args.length > 0 && Boolean.parseBoolean(args[0])==true ) br.readLine(); //neka brezvezna resitev...
 				
 		char opcija = ' ';

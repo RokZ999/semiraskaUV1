@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public class TuristicnaAgencija {
     static ArrayList<Pocitnice> pocitnice = new ArrayList<>();
-	private static String pot = "E:\\rootJava\\EclipsePortable\\Data\\workspace\\FaksMain\\src\\seminarska\\pocitnice.txt";
+	private static String pot = UporabniskiVmesnik.pot2;
 	private static BufferedReader br = null;
 	private static PrintWriter pr = null;
 	public static Uporabnik usr = null;

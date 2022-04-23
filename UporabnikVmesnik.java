@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class UporabnikVmesnik {
 		
 	private static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	private static final String pot ="pocitnice.txt";
+	private static final String pot = UporabniskiVmesnik.pot;
 	
 	public static void basic(ArrayList<Uporabnik> uporabniki) throws IOException, ClassNotFoundException {
 		char opcija = ' ';
