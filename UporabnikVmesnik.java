@@ -10,7 +10,6 @@ public class UporabnikVmesnik {
 	
 	public static void basic(ArrayList<Uporabnik> uporabniki) throws IOException, ClassNotFoundException {
 		char opcija = ' ';
-		TuristicnaAgencija.nalozi();
 		while(true) 
 		{
 			System.out.printf("%s%n*%36s%13s%n%s%n",new String(new char[50]).replace("\0", "*"),"-->Iskanje pocitnic<--","*",new String(new char[50]).replace("\0", "*"));
@@ -50,7 +49,7 @@ public class UporabnikVmesnik {
 					TuristicnaAgencija.shrani();
 					IORazred_mainVmesnik.shrani(pot, uporabniki);
 					UporabniskiVmesnik.main(new String[]{"true"});
-					return;
+					break;
 				default:
 					System.out.println("NAPACNA OPCIJA.");
 			}
@@ -58,7 +57,6 @@ public class UporabnikVmesnik {
 	}
 	public static void admin(ArrayList<Uporabnik> uporabniki) throws IOException, ClassNotFoundException {
 		char opcija = ' ';
-		TuristicnaAgencija.nalozi();
 		while(true) 
 		{
 			System.out.printf("%s%n*%36s%13s%n%s%n",new String(new char[50]).replace("\0", "*"),"-->Iskanje pocitnic<--","*",new String(new char[50]).replace("\0", "*"));
@@ -147,7 +145,7 @@ public class UporabnikVmesnik {
 					TuristicnaAgencija.shrani();
 					IORazred_mainVmesnik.shrani(pot, uporabniki);
 					UporabniskiVmesnik.main(new String[]{"true"});
-					return;
+					break;
 				default:
 					System.out.println("NAPACNA OPCIJA.");
 			}

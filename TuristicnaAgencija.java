@@ -6,16 +6,15 @@ import java.util.ArrayList;
 
 public class TuristicnaAgencija {
     static ArrayList<Pocitnice> pocitnice = new ArrayList<>();
-	private static String pot = UporabniskiVmesnik.pot2;
 	private static BufferedReader br = null;
 	private static PrintWriter pr = null;
 	public static Uporabnik usr = null;
 	
 	public static void nalozi() throws ClassNotFoundException, IOException {
-		IOBranjeZapisObjektov_splosno.preberi_nalozi_Objekte(pot, pocitnice);
+		IOBranjeZapisObjektov_splosno.preberi_nalozi_Objekte(UporabniskiVmesnik.pot2, pocitnice);
 	}
 	public static void shrani() throws ClassNotFoundException, IOException {
-		IOBranjeZapisObjektov_splosno.shrani_Objekte(pot,pocitnice);
+		IOBranjeZapisObjektov_splosno.shrani_Objekte(UporabniskiVmesnik.pot2,pocitnice);
 	}
 	
 

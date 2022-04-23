@@ -33,7 +33,6 @@ public class IORazred_mainVmesnik {
 		else {
 			uporabniki.add(f ? new Uporabnik(input1,input2,input3,input4,true) :   new Uporabnik(input1,input2,input3,input4,false));
 			System.out.println("Uporabnik shranjen.");
-			
 		}
 	}
 	public static void prijava(ArrayList<Uporabnik> uporabniki) throws IOException, ClassNotFoundException  {

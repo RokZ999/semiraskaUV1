@@ -58,7 +58,7 @@ public class IOBranjeZapisObjektov_splosno implements Serializable{
 		oi = new ObjectInputStream(fi);
 	
 		anyArrayList.addAll( (Collection<? extends T>) oi.readObject());
-	    fi.close();
+	    	fi.close();
 		oi.close();
 		}
 
