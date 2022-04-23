@@ -24,3 +24,5 @@ javac *.java
 jar cvfm TuristicnaAgencijaCLI.jar manifest.txt *.class
 java -jar TuristicnaAgencijaCLI.jar
 ```
+## Znani problemi
+pri odjavi oz. terminiranju programa lahko pride do napake, zaradi antivirusnega programa, ki blokira JVM pisanje v datoteke pocitnice.txt in uporabnik.txt
