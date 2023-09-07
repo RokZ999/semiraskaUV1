@@ -1,28 +1,31 @@
-# Seminarska naloga za UVP1
+# Seminar Paper for UVP1
 ![image](https://user-images.githubusercontent.com/71169333/164452151-1be739a8-f590-4c0c-8263-4d1fc9b4080d.png)
 
+## Overview
 
-Program za Turistično agencijo, narejen v prog. jeziku Java ☕
-Funkcinalnosti programa:
-- Uporabniški vmesnik, kjer se lahko registrera uporabnika, prijavi navaden_uporabnik ali admin 
-- Če se prijavi navaden_uporabnik ima na voljo funkcionalnosti, kot so: iskanje in rezervacija počitnic
-- Če se prijavi admin ima na voljo vse funckionalnosti uporabnika + vse admin funkcionalnosti
+Program for a Travel Agency, developed in Java ☕.
 
-## Namestiev
-1. Odpreš ukazno vrstico in napišeš gh repo clone RokZ999/semiraskaUVP1 ali ročno preneseš vse v poljubno skupno mapo.
-2. Zazenes RUN program.bat, ki v ozadju naredi naslednji korak, ki ga lahko izvedete tudi sami
--> Odpreš mapo v ukazni vrstici in napišeš ukaz: java -jar TuristicnaAgencijaCLI.jar
+### Functionalities
 
-## Prevajnje kode/posodblanje in kreiranje JAR datoteke
+- **User Interface**: Allows user registration and login as either a regular user or admin.
+- **Regular User**: Can search and book vacations.
+- **Admin**: Has access to all regular user functionalities, plus additional admin functionalities.
 
-Uporabi: UPDATE-PROGRAM.bat
+## Installation
+1. **Clone the Repository**:  Or manually download all files into a folder of your choice.
+2. double click on program.bat, This will start program or
 
-ali ročno z ukazi v ukazni vrstici:
+## Code Compilation and JAR File Creation
+
+- **Automatic**:  UPDATE-PROGRAM.bat
+
+**Manual**:  
 
 ```
 javac *.java
 jar cvfm TuristicnaAgencijaCLI.jar manifest.txt *.class
 java -jar TuristicnaAgencijaCLI.jar
 ```
-## Znani problemi
-pri odjavi oz. terminiranju programa lahko pride do napake, zaradi antivirusnega programa, ki blokira JVM pisanje v datoteki pocitnice.txt in uporabniki.txt
+## Known Issues
+- Upon logging out or terminating the program, an error may occur due to antivirus software that blocks JVM from writing to the `pocitnice.txt` and `uporabniki.txt` files.
+
